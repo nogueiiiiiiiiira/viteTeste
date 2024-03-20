@@ -3,32 +3,32 @@
         "id": 1,
         "name": "Cachorro",
         "desc": "Husky Siberiano",
-        "value": "1.000,00",
-        "image": ""
+        "value": "R$ 1.000,00",
+        "image": "./src/images/husky.jpg"
     },
 
     {
         "id": 2,
         "name": "Cachorro",
         "desc": "Golden Retriever",
-        "value": "2.030,00",
-        "image": ""
+        "value": "R$ 2.030,00",
+        "image": "./src/images/golden.jpg"
     },
 
     {
         "id": 3,
         "name": "Gato",
         "desc": "Vira-Lata",
-        "value": "00,00",
-        "image": ""
+        "value": "R$ 00,00",
+        "image": "./src/images/vira-lata.jpg"
     },
 
     {
         "id": 4,
         "name": "Gato",
         "desc": "Maine Coon",
-        "value": "1.340,00",
-        "image": ""
+        "value": "R$ 1.340,00",
+        "image": "./src/images/maine.jpg"
     }
 
 ]

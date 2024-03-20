@@ -3,6 +3,7 @@ export default function Menu(){
         <ul>
             <li><a href={'/'}>Gráficos Recharts</a></li>
             <li><a href={'/Consumo'}>Consumindo JSON</a></li>
+            <li><a href={'/Carrousel'}>Slider</a></li>
         </ul>
     )
 }
