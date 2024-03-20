@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Cachorro",
+        "desc": "Husky Siberiano",
+        "value": "1.000,00",
+        "image": ""
+    },
+
+    {
+        "id": 2,
+        "name": "Cachorro",
+        "desc": "Golden Retriever",
+        "value": "2.030,00",
+        "image": ""
+    },
+
+    {
+        "id": 3,
+        "name": "Gato",
+        "desc": "Vira-Lata",
+        "value": "00,00",
+        "image": ""
+    },
+
+    {
+        "id": 4,
+        "name": "Gato",
+        "desc": "Maine Coon",
+        "value": "1.340,00",
+        "image": ""
+    }
+
+]
