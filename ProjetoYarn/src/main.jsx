@@ -4,6 +4,8 @@ import './index.css'
 import { Home } from './Home.jsx'
 import { Consumo } from './Consumo.jsx'
 import { Carrousel } from './Carrousel.jsx'
+import { RickAndMorty } from './RickAndMorty'
+import { MaskInput } from './MaskInput'
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
@@ -20,7 +22,18 @@ const router = createBrowserRouter([
   {
     path: "/Carrousel",
     element: < Carrousel />
+  },
+
+  {
+    path: "/RickAndMorty",
+    element: < RickAndMorty />
+  },
+
+  {
+    path: "/MaskInput",
+    element: < MaskInput />
   }
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

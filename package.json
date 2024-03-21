@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "axos": "^0.0.1",
     "react-router-dom": "^6.22.3",
     "recharts": "^2.12.3",
     "slick-carousel": "^1.8.1"

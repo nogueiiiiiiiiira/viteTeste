@@ -1,8 +1,6 @@
 import Menu from "./components/Menu"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import React from "react";
 import Slider from "react-slick";
+import {Card} from "./components/Card";
 
 export const Carrousel = () => {
     
@@ -14,30 +12,79 @@ export const Carrousel = () => {
         slidesToScroll: 1,
       };
 
-    return (
-       <>
-       <Menu />
-        <Slider {...settings}>
-      <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
+      return(
+        <>
+        <Menu/>
+            <h1>Slider Exemplo</h1>
+    <Slider {...settings} >
+        <div>
+          <div className="sectionSlider imageSlider">
+            <Card  
+                name ="Ola"
+                desc = "Delzida"
+                value = "vai dar certo"
+                image = "https://static.vecteezy.com/ti/fotos-gratis/t2/28287431-grupo-do-multietnico-o-negocio-pessoas-dentro-a-escritorio-ai-gerado-foto.jpg"
+            />
+            </div>
+        </div>
+
+        <div>
+          <div className="sectionSlider imageSlider">
+            <Card 
+                name = "Ola"
+                desc = "Delzida"
+                value = "vai dar certo"
+                image = "https://static.vecteezy.com/ti/fotos-gratis/t2/28287431-grupo-do-multietnico-o-negocio-pessoas-dentro-a-escritorio-ai-gerado-foto.jpg"
+            />
+            </div>
+        </div>
+
+        <div>
+          <div className="sectionSlider imageSlider">
+            <Card 
+                name = "Thhau"
+                desc = "Delzida"
+                value = "vai dar certo"
+                image = "https://static.vecteezy.com/ti/fotos-gratis/t2/28287431-grupo-do-multietnico-o-negocio-pessoas-dentro-a-escritorio-ai-gerado-foto.jpg"
+            />
+            </div>
+        </div>
+
+        <div>
+          <div className="sectionSlider imageSlider">
+            <Card 
+                name = "SIm"
+                desc = "Delzida"
+                value = "vai dar certo"
+                image = "https://static.vecteezy.com/ti/fotos-gratis/t2/28287431-grupo-do-multietnico-o-negocio-pessoas-dentro-a-escritorio-ai-gerado-foto.jpg"
+            />
+            </div>
+        </div>
+    
+    <div>
+      <div className="sectionSlider imageSlider">
+        <Card 
+            name = "Lasquera"
+            desc = "Delzida"
+            value = "vai dar certo"
+            image = "https://static.vecteezy.com/ti/fotos-gratis/t2/28287431-grupo-do-multietnico-o-negocio-pessoas-dentro-a-escritorio-ai-gerado-foto.jpg"
+        />
+        </div>
+    </div>
+
+    <div>
+      <div className="sectionSlider imageSlider">
+        <Card 
+            name = "Lasquera"
+            desc = "Delzida"
+            value = "vai dar certo"
+            image = "https://static.vecteezy.com/ti/fotos-gratis/t2/28287431-grupo-do-multietnico-o-negocio-pessoas-dentro-a-escritorio-ai-gerado-foto.jpg"
+        />
+        </div>
+    </div>
+  
+    
     </Slider>
-       </>
-   
-  );
+        </>
+    )
 }
